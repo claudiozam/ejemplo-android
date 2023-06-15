@@ -8,10 +8,18 @@
     android:background="@drawable/border">
 
 
+    <ImageView
+        android:id="@+id/imageViewAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:srcCompat="@tools:sample/avatars" />
+
     <TextView
         android:id="@+id/textViewBookInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="TextView" />
+
 </LinearLayout>
