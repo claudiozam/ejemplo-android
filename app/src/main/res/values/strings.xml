@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Integrador Libros</string>
+    <string name="button_save">Guardar</string>
+    <string name="text_view_book_name">Nombre</string>
+    <string name="edit_text_book_name_hint">Ingresar el nombre completo del libro</string>
+    <string name="text_view_book_description">Descripcion</string>
+    <string name="edit_text_book_description_hint">Ingresar los detalles del libro</string>
+</resources>
