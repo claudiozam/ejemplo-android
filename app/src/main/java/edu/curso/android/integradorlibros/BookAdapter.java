@@ -1,6 +1,7 @@
 package edu.curso.android.integradorlibros;
 
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -43,6 +44,9 @@ public class BookAdapter extends RecyclerView.Adapter<BookItemViewHolder> {
         holder.textViewBookInfo.setText(book.getName());
         holder.itemContainer.setOnClickListener(view -> {
             Toast.makeText(context, "Click: " + book, Toast.LENGTH_SHORT).show();
+            Intent intentVerLibro = new Intent(context, VerLibroActivity.class);
+            intentVerLibro.putExtra("book", book);
+            context.startActivity(intentVerLibro);
         });
 
     }
